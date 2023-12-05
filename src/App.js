@@ -1,13 +1,16 @@
-import SearchForm from "./components/SearchForm";
-import SearchResults from "./components/SearchResults";
-import "./styles.css";
+import ControlledInputs from "./components/ControlledInputs";
+import FormSubmits from "./components/FormSubmits";
+import LiftingUpState from "./components/LiftingUpState";
 
 export default function App() {
   return (
-    <main>
-      <h1>Search</h1>
-      <SearchForm />
-      <SearchResults />
-    </main>
+    <>
+      <h1>React State 2</h1>
+      <ControlledInputs />
+      <hr />
+      <FormSubmits />
+      <hr />
+      <LiftingUpState />
+    </>
   );
 }
